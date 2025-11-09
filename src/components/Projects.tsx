@@ -3,6 +3,7 @@ import fallpomodoro from '../images/fallpomodoro.png';
 import quizling from '../images/quizling.png';
 import revize from '../images/revize.png';
 import elevate from '../images/elevate.png';
+import spotify from '../images/spotify.jpg';
 
 const projects = [
   {
@@ -21,6 +22,13 @@ const projects = [
     
   },
   {
+    title: 'Vibeify',
+    description: 'A backend app that generates Spotify playlists based on user mood using Spotify API. Users enter a mood/concept and it automatically curates a playlist that matches that vibe to your Spotify account.',
+    image: spotify,
+    tech: ['Python','PostgreSQL', 'FastAPI'],
+    github: 'https://github.com/franollf/vibeify',
+  },
+  {
     title: 'Revize',
     description: 'A modern flashcard web app that helps users efficiently study and retain information through spaced repetition, customizable decks, and intuitive progress tracking.',
     image: revize,
@@ -35,6 +43,7 @@ const projects = [
     github: 'https://github.com/franollf/Autumn-Pomodoro',
 
   },
+
 ];
 
 const Projects = () => {
